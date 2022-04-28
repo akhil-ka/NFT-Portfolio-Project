@@ -1,19 +1,36 @@
 body {
   margin: 0px;
-  /* background-image: url("/images/photo-1573096108468-702f6014ef28.avif");
-  background-position: center;
-  background-size: cover; */
   background-color: rgb(255 161 161 / 80%);
 }
 
-header {
+main {
   background-color: rgb(255, 255, 255);
   width: 1200px;
-  height: 60px;
+  height: 920px;
   margin: 0 auto;
   position: relative;
   top: 80px;
+  border-radius: 5px;
+  box-shadow: 0.1px 0.1px 5px rgb(126 71 67);
+}
+
+#logo-nav-container {
+  display: flex;
+  justify-content: space-between;
   padding: 15px 20px 0 20px;
+}
+
+#logo {
+  color: rgb(153 73 73);
+  font-family: "Square Peg", sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0;
+}
+
+#logo:hover {
+  color: rgb(107 11 11);
 }
 
 ul {
@@ -25,7 +42,7 @@ ul {
 li a {
   color: rgb(153 73 73);
   font-family: "Roboto Condensed", sans-serif;
-  font-size: large;
+  font-size: 25px;
   text-decoration: none;
   padding: 0 10px 0 10px;
   margin: 0 0 0 20px;
@@ -37,51 +54,21 @@ li a:hover {
   border-radius: 12px;
 }
 
-#logo-nav-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-#logo {
-  color: rgb(153 73 73);
-  font-family: "Square Peg", sans-serif;
-  text-decoration: none;
-  font-size: 35px;
-  font-weight: bolder;
-  margin: 0;
-}
-
-#logo:hover {
-  color: rgb(153 73 73);
-  font-family: "Square Peg", sans-serif;
-  text-decoration: none;
-  font-size: 38px;
-  font-weight: bolder;
-  margin: 0;
-}
-
-#about-p {
-  background-color: rgb(255, 255, 255);
-  width: 900px;
-  height: 150px;
-  padding: 15px 320px 0 20px;
-  margin: 0 auto;
-  position: relative;
-  top: 80px;
+#about-container {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 30px;
   font-weight: 100;
+  padding: 0 580px 0 20px;
 }
 
-#collections {
+#collections-container {
   background-color: rgb(255, 255, 255);
   background-image: url("/images/collage.jpg");
   background-position: center;
   background-size: 800px;
-  width: 1200px;
+  width: 1120px;
   height: 600px;
-  padding: 0 20px;
   margin: 0 auto;
   position: relative;
-  top: 80px;
+  padding: 0 20px 0 20px;
 }
