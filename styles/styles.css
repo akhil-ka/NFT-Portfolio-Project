@@ -71,4 +71,5 @@ li a:hover {
   margin: 0 auto;
   position: relative;
   padding: 0 20px 0 20px;
+  border-radius: 2px;
 }
