@@ -5,7 +5,7 @@ body {
 
 main {
   background-color: rgb(255, 255, 255);
-  width: 1200px;
+  width: 1220px;
   height: 920px;
   margin: 0 auto;
   position: relative;
@@ -72,7 +72,7 @@ li a:hover {
   margin: 0 auto;
   position: relative;
   padding: 0 20px 0 20px;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
 #icon-container {
