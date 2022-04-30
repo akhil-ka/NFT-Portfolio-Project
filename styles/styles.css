@@ -46,12 +46,12 @@ li a {
   text-decoration: none;
   padding: 0 10px 0 10px;
   margin: 0 0 0 20px;
+  border-radius: 12px;
 }
 
 li a:hover {
   color: rgb(247 251 254);
   background-color: rgb(162 59 59);
-  border-radius: 12px;
   transition-duration: 0.2s;
 }
 
