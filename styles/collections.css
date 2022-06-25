@@ -19,7 +19,7 @@ body {
   list-style: none;
   width: 320px;
   height: 460px;
-  background-color: rgb(255 255 255);
+  background-color: #fff5f5;
   border-radius: 22px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
 }
@@ -39,6 +39,7 @@ body {
 
 .nft-card-name {
   padding: 0px 25px;
+  color: #2F2C23;
 }
 
 .nft-card-name h2 {
